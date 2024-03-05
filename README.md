@@ -110,3 +110,38 @@ int main() {
         cout<<"No";
     return 0;
 }
+
+k
+#include <iostream>
+using namespace std;
+
+int main() {
+    int A, B, C;
+    cin >> A >> B >> C;
+
+    int max =A;
+    int min =A;
+
+    if(B>max)
+        {
+            max=B;
+         }
+    if(C>max)
+    {
+        max=C;
+       
+       }
+
+
+       if(B<min)
+       {
+        min=B;
+        }
+    if(C<min)
+        min=C;
+    cout << min << " " << max << endl;
+
+    return 0;
+}
+
+
