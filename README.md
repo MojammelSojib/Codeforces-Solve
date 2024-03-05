@@ -186,4 +186,78 @@ int main() {
     }
     return 0;
 }
+#N. Char
+#include <bits/stdc++.h>
+using namespace std;
 
+int main() {
+    char X;
+
+    cin>>X;
+   
+    if (X >='A' &&  X<='Z')
+    {
+        X=X+32;
+        cout<<X;
+    }
+   
+    else
+    {
+        X=X-32;
+        cout<<X;
+
+    }
+    return 0;
+}
+O. Calculator
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int A,B;
+    char S;
+
+    cin>>A>>S>>B;
+   
+    if (S=='+')
+    {
+        cout<<A+B<<endl;
+    }
+   
+   else if (S=='-')
+    {
+        cout<<A-B<<endl;
+    }
+       else if (S=='*')
+    {
+        cout<<A*B<<endl;
+    }
+       else if (S=='/')
+    {
+        cout<<A/B<<endl;
+    }
+    return 0;
+}
+
+#First digit
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+
+    int X; 
+    cin>>X;
+   
+   int rem=X/1000;
+
+       if (rem%2==0)
+    {
+        cout<<"EVEN"<<endl;
+    }
+
+   else
+    {
+        cout<<"ODD"<<endl;
+    }
+    return 0;
+}
