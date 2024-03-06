@@ -303,4 +303,48 @@ int main() {
     }
     return 0;
 }
+R.Ages
+#include <bits/stdc++.h>
+using namespace std;
 
+int main() {
+
+    int N; 
+    cin>>N;
+
+    cout<<N/365<<" years"<<endl;
+    N=N%365;
+    cout<<N/30<<" months"<<endl;
+    N=N%30;
+    cout<<N<<" days"<<endl;
+
+   
+    return 0;
+}
+#Last 2 digit
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+
+   long long A,B,C,D;
+   cin>>A>>B>>C>>D;
+
+   A=A%100;
+   B=B%100;
+   C=C%100;
+   D=D%100;
+
+   int X=A*B*C*D;
+   int Y=X%100;
+
+   if(Y<10){
+    cout<<"O"<<Y<<endl;
+   }
+
+   else
+    cout<<Y<<endl;
+
+    return 0;
+}
