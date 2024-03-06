@@ -348,3 +348,29 @@ int main() {
 
     return 0;
 }
+#Sorting
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int a,b,c;
+
+    cin>>a>>b>>c;
+    int array[3];
+    array[0]=a;
+    array[1]=b;
+    array[2]=c;
+
+    sort(array,array+3);
+    cout<<array[0]<<endl; 
+    cout<<array[1]<<endl;
+    cout<<array[2]<<endl;  
+
+    cout<<endl;
+
+    cout<<a<<endl;
+    cout<<b<<endl;
+    cout<<c<<endl;
+   
+    return 0;
+}
