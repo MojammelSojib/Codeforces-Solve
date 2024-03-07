@@ -480,21 +480,19 @@ int main() {
 
 Z..
 #include <bits/stdc++.h>
-#include <algorithm>
 using namespace std;
 
 int main() {
     long long A, B, C, D;
     cin >> A >> B >> C >> D;
-  
-    long long AB = A * B;
-    long long CD = C * D;
 
-    if (AB > CD) {
+    if (B* log (A)> D *log(C)) {
         cout << "YES" << endl;
     } else {
         cout << "NO" << endl;
     }
-    return 0;
 
+    return 0;
 }
+
+
