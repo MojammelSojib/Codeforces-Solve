@@ -374,3 +374,80 @@ int main() {
    
     return 0;
 }
+
+#COMPARISON V
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int A,B;
+    char s;
+    cin>>A>>s>>B;
+
+
+    if(s=='>')
+    {
+        if(A>B){
+            cout<<"Right"<<endl;
+        } else{
+
+     cout<<"Wrong"<<endl;
+        }
+    }
+   else if(s=='<')
+    {
+        if(A<B){
+            cout<<"Right"<<endl;
+        }
+        else
+        {
+            cout<<"Wrong"<<endl;
+        }
+    }
+
+    else if (s== '=')
+    {
+        if(A==B){
+            cout<<"Right"<<endl;
+        }
+        else
+        {
+            cout<<"Wrong"<<endl;
+        }
+    }
+
+    return 0;
+
+}
+
+w.mathmetival expression
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int A,B,C,d;
+    char S,Q;
+
+    cin>>A>>S>>B>>Q>>C;
+    
+    if(S=='+')
+    {
+       d=A+B;
+    }
+    else if(S=='-')
+    {
+         d=A-B;
+    }
+    else if(S=='*')
+    {
+         d=A*B;
+    }
+
+    if(C==d)
+        cout<<"Yes"<<endl;
+    else
+        cout<<d;
+
+    return 0;
+
+}
