@@ -451,3 +451,50 @@ int main() {
     return 0;
 
 }
+Y.The last 2 digit
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int A,B,C,D;
+    cin >>A>>B>>C>>D;
+
+    A=A%100;
+    B=B%100;
+    C=C%100;
+    D=D%100;
+
+    int x=A*B*C*D;
+    int y=x%100;
+
+    if(y<10){
+        cout<<0<<y<<endl;
+    }
+    else{
+        cout<<y<<endl;
+    }
+
+    return 0;
+
+}
+
+Z..
+#include <bits/stdc++.h>
+#include <algorithm>
+using namespace std;
+
+int main() {
+    long long A, B, C, D;
+    cin >> A >> B >> C >> D;
+  
+    long long AB = A * B;
+    long long CD = C * D;
+
+    if (AB > CD) {
+        cout << "YES" << endl;
+    } else {
+        cout << "NO" << endl;
+    }
+    return 0;
+
+}
