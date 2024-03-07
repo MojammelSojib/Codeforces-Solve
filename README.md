@@ -495,4 +495,20 @@ int main() {
     return 0;
 }
 
+Contest #1
+Problem A :Winter Sale
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    double X,P ;
+    cin>>X>>P;
+    double x=P*(100/(100-X));
+
+    cout<<fixed << setprecision(2)<< x <<endl;
+    
+    return 0;
+}
+
+
 
