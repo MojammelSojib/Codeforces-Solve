@@ -590,7 +590,7 @@ int main() {
 }
 
     
-sheet 1:
+sheet 2:
 A. 1 to N
 #include <bits/stdc++.h>
 using namespace std;
@@ -607,4 +607,29 @@ int main() {
 
 }
 
+B. Even Numbers
+
+#include <bits/stdc++.h>
+using namespace std;
+
+
+int main() {
+    int N;
+    cin >> N;
+    for (int i = 2; i <= N; i += 2)
+    {
+         if(i%2==0)cout<<i<<endl;
+    }
+
+  if (N==1)
+  {
+       cout<<"-1"<<endl;
+
+  }
+           
+    return 0;
+
+}
+
+    
 
