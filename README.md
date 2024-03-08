@@ -589,7 +589,64 @@ int main() {
 
 }
 
-    
+I. Lucky Numbers
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    string num;
+    cin>>num;
+
+    int num1=num[0]-'0';
+    int num2=num[1]-'0';
+
+     if (num2==0)
+    {
+        cout<<"No"<<endl;
+    }
+
+    else if(num1%num2==0 || num2%num1==0)
+    {
+        cout<<"Yes"<<endl;
+    }
+    else
+    {
+        cout<<"No"<<endl;
+    }
+   
+    return 0;
+}
+
+I. Lucky Numbers
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    string num;
+    cin >> num;
+
+    int num1=num[0]-'0';
+    int num2=num[1]-'0';
+
+    if (num2==0) {
+        cout <<"NO"<<endl;
+        
+    }
+    else if (num1 % num2 == 0 || num2 % num1 == 0)
+    {
+        cout <<"YES"<< endl;
+    } 
+    else {
+        cout <<"NO"<< endl;
+    }
+
+    return 0;
+}
+
+
+
 sheet 2:
 A. 1 to N
 #include <bits/stdc++.h>
@@ -630,6 +687,45 @@ int main() {
     return 0;
 
 }
+
+ C.E   
+#include <bits/stdc++.h>
+using namespace std;
+
+
+int main() {
+    int N;
+    cin >> N;
+    int array [N];
+    int even=0,odd=0,positive=0,negative=0;
+
+    for(int i=0;i<N;i++)
+        cin>>array[i];
+
+    for (int i = 0; i < N; i++)
+    if(array[i]%2==0){
+        even++;
+    }
+    else{
+        odd++;
+    }
+    
+    for (int i = 0; i < N; i++)
+    if(array[i]>0)
+    {
+        positive++;
+           }
+     else if(array[i]<0)
+     {
+        negative++;
+     }
+
+     cout<<"Even: "<<even<<endl;
+     cout<<"Odd: "<<odd<<endl;
+     cout<<"Positive: "<<positive<<endl;
+     cout<<"Negative: "<<negative<<endl;
+    return 0;
+    } 
 
     
 
