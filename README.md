@@ -793,5 +793,32 @@ int main(){
    return 0;
 }
 
+H.One  prime
+
+
+#include <bits/stdc++.h>
+using namespace std;
+
+
+int main(){
+    int n,prime=0,i;
+    cin>>n;
+
+    for(i=2;i<n;i++){
+        if (n%i==0)
+        {
+            prime++;
+        }
+    }
+        if(prime==0)
+        {
+            cout<<"YES"<<endl;
+        }
+        else
+        {
+            cout<< "NO" <<endl;
+        }
+return 0;
+}
  
 
