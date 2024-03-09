@@ -751,5 +751,47 @@ int main()
 
 }
 
-  
+
+E. Max
+#include<bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int n;
+    cin >> n;
+
+    int max=0;
+    int num;
+    for(int i=0;i<n;i++)
+    {
+      cin>>num;
+      if (num>max)
+      {
+        max=num;
+      }
+    }
+
+    cout<<max<<endl;
+
+    return 0;
+}
+
+F.Mulitiplcation
+
+#include<iostream>
+using namespace std;
+
+int main(){
+
+    int num;
+        cin>>num;
+
+        for(int i=1;i<=10;i++)
+        {
+            cout<<num<< " * "<< i << " = "<<(num*i)<<endl;
+        }
+   return 0;
+}
+
+ 
 
