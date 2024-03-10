@@ -865,4 +865,32 @@ int main()
     return 0;
 }
 
+N.Number of Histrogram
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    char symbol;
+    cin>>symbol;//+
+    int lines;
+    cin>>lines;//5
+
+    for(int i=1;i<=lines;i++){
+        int times;//5 3 4 2
+
+        cin>>times;
+
+
+        for(int i=1;i<=times;i++){
+            cout<<symbol;
+            //+++++
+            //+++
+        }
+        cout<<endl;
+    }
+}
+
+
 
