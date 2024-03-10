@@ -821,4 +821,23 @@ int main(){
 return 0;
 }
  
+k.Divisors
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int N;
+    //cout << "Enter a number: "<<endl;
+    cin >> N;
+
+    //cout << "Divisors of " << N << " in ascending order: ";
+    for (int i = 1; i <= N; i++) {
+        if (N % i == 0) {
+            cout << i << " ";
+        }
+    }
+return 0;
+}
+
 
