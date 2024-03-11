@@ -921,3 +921,5 @@ int main()
 return 0;
 }
 
+
+S. Sum of Consecutive Odd Numbers
