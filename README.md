@@ -947,23 +947,49 @@ int main() {
     return 0;
 }
 
-Q .Digit Loop
-
+T - Shape2
 #include <bits/stdc++.h>
 using namespace std;
+
 int main()
 {
-    int t;
-    cin>>t;
-    while(t--){
-        int N;
-        cin>>N;
-        while(N>0){
-            cout<<N%10<<" ";
-            N/=10;
-        }
+    int row,col,n;
+    //cout<<"Enter N digit" ;
+    cin>>n;
+
+    for(row=1;row<=n;row++)
+    {
+        for(col=1;col<=n-row;col++)
+            cout<<" ";
+
+        for(col=1;col<=2*row-1;col++)
+            cout<<"*";
         cout<<endl;
     }
     return 0;
 }
+
+
+Q .Digit Loop
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int t;
+    cin >> t;
+    while (t--) {
+        string N;
+        cin >> N;
+        
+       for(int i=N.size()-1;i>=0;i--){
+        cout<<N[i]<<" ";
+       }
+       cout<<endl;
+    }
+    return 0;
+    }
+
+
+
 
