@@ -1067,4 +1067,25 @@ return 0;
 }
 
 
+D.Range Sum
+
+#include<bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int t;
+    cin >> t;
+    while (t--) {
+        long long l,r;
+        cin >>l>>r;
+        if (l>r) {
+            swap(l, r);
+        }
+        
+        long long n=r-l+1;
+        long long s=n*(l + r)/ 2;
+        cout<< s << endl;
+    }
+    return 0;
+}
 
