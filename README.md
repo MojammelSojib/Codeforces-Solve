@@ -1044,7 +1044,27 @@ int main() {
     return 0;
 }
 
+Contest #2
+A.Timon and Pumbaa
 
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int a,b,r;
+    cin>>a>>b;
+
+     r=a-b;
+     if (r>=0)
+     {
+         cout<< r <<endl;
+     }
+     else{
+        cout<<"0"<<endl;
+     }
+return 0;
+
+}
 
 
 
